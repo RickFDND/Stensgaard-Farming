@@ -27,6 +27,6 @@
   "homepage": "https://github.com/RickFDND/Mellerstore#readme",
   "dependencies": {
     "express": "^5.1.0",
-    "liquidjs": "^10.21.0"
+    "liquidjs": "^10.21.1"
   }
 }
