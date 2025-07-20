@@ -53,7 +53,6 @@
             background-color: var(--primary-color);
             padding: 0.5em 1em;
             border-radius: 5px;
-            font-weight: bold;
             transition: background-color 0.3s;
 
             &:hover {
@@ -77,10 +76,6 @@
     }
 
     @media (min-width: 1200px) {
-        height: calc(80vh - 100px);
-    }
-
-    @media (min-width: 1400px) {
         height: calc(100vh - 100px);
     }
 }
