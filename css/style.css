@@ -1,8 +1,8 @@
-@import '/stylesheet.css';
-@import '/header.css';
-@import '/startscreen.css';
-@import '/about-us.css';
-@import '/foot.css';
+@import 'stylesheet.css';
+@import 'header.css';
+@import 'startscreen.css';
+@import 'about-us.css';
+@import 'foot.css';
 
 body {
     font-family: var(--font-family);
