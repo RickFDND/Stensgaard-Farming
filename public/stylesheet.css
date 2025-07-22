@@ -8,16 +8,11 @@
     src: url('/font/Poppins-SemiBold.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Poppins';
-    src: url('/font/Poppins-Bold.ttf') format('truetype');
-}
-
 :root {
     /* colors */
     --background-color: #f0f0f0;
     --primary-color: #275717; 
-    --secondary-color: #720000; 
+    --secondary-color: #bc0202; 
     --text-color: #000000; 
 
     /* fonts */
@@ -39,11 +34,19 @@ h1 {
 h2 {
     font-size: calc(var(--heading-font-size) * 0.8);
     line-height: var(--heading-line-height);
-    color: var(--heading-color);
+}
+
+h3 {
+    font-size: calc(var(--heading-font-size) * 0.7);
+    line-height: var(--heading-line-height);
 }
 
 a {
     color: white;
     text-decoration: none;
     font-weight: 500;
+}
+
+ul {
+    list-style: none; 
 }

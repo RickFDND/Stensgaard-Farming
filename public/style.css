@@ -1,7 +1,8 @@
 @import '/stylesheet.css';
 @import '/header.css';
 @import '/startscreen.css';
-@import '/footer.css';
+@import '/about-us.css';
+@import '/foot.css';
 
 body {
     font-family: var(--font-family);
@@ -9,4 +10,8 @@ body {
     margin: 0;
     padding: 0;
     color: var(--text-color);
+}
+
+main {
+    margin-inline: 1em;
 }
