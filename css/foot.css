@@ -30,29 +30,18 @@ footer {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            column-gap: 1em;
+            column-gap: 1.5em;
         }
 
-        @media (min-width: 620px) {
-            column-gap: 3em;
-        }
-
-        @media (min-width: 800px) {
-            column-gap: 5em;
-        }
-
-        @media (min-width: 1024px) {
-            column-gap: 7em;
-        }
-
-        @media (min-width: 1280px) {
-            column-gap: 13em;
-        }
+        @media (min-width: 768px) {
+            width: 80%;
+        }    
     }
-
 
     p {
         margin-inline: auto;
+        font-size: 0.8rem;
+        font-weight: 400;
     }
 
     @media (min-width: 480px) {

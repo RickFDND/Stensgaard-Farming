@@ -3,6 +3,7 @@
 @import 'startscreen.css';
 @import 'about-us.css';
 @import 'foot.css';
+@import 'products.css';
 
 body {
     font-family: var(--font-family);

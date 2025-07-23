@@ -14,7 +14,7 @@ header {
         }
     }
 
-    button {
+    .hamburger-button {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -22,7 +22,7 @@ header {
         row-gap: 8px;
         background: none;
         border: none;
-        padding-right: 2.3em;
+        margin-right: 2.3em;
 
         span {
             background-color: white;
