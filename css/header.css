@@ -1,5 +1,5 @@
 header {
-    display: flex;
+    display: flex;;
     justify-content: space-between;
     height: 100px;
     background-color: var(--primary-color);
@@ -14,7 +14,7 @@ header {
         }
     }
 
-    .hamburger-button {
+    #hamburger-button {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -28,12 +28,29 @@ header {
 
         span {
             background-color: white;
-            width: 30px;
+            width: 34px;
             height: 4px;
+            transition: all 1s ease;
         }
 
         @media (min-width: 800px) {
             display: none;
+        }
+    }
+
+    .active {
+        span:nth-child(1) {
+            transform: rotateZ(-45deg);
+            transform-origin: right;
+        }
+
+        span:nth-child(2) {
+            opacity: 0;
+        }
+
+        span:nth-child(3) {
+            transform: rotateZ(45deg);
+            transform-origin: right;
         }
     }
 
@@ -99,6 +116,31 @@ header {
 
         @media (min-width:800px) {
             display: flex;
+        }
+    }
+
+    .nav-open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        width: 50%;
+        background-color: var(--primary-color);
+        padding: 0;
+        gap: 0;
+        min-height: 280px;
+
+        .navigation-links {
+            flex-direction: column;
+            align-items: center;
+            gap: 1em;
+            width: 100%;
+            padding: 0;
+        }
+
+        .language-switcher {
+            padding: 0;
         }
     }
 
