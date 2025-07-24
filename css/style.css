@@ -4,6 +4,7 @@
 @import 'about-us.css';
 @import 'foot.css';
 @import 'products.css';
+@import 'mellerstore.css';
 
 body {
     font-family: var(--font-family);
