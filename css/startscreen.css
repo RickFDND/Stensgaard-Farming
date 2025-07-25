@@ -51,7 +51,7 @@
 
             @media (min-width: 768px) {
                 padding: 0.6em 1.25em;
-                font-size: clamp(1.25rem, 1.2vw + .8rem, 3rem);
+                font-size: clamp(1.25rem, 1.2vw + 0.8rem, 3rem);
             }
         }
     }
