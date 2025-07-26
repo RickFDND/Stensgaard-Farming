@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 const hamburgerButton = document.querySelector('#hamburger-button');
 const navbar = document.querySelector('nav');
 
@@ -8,4 +9,5 @@ hamburgerButton.addEventListener('click', function (e) {
 
   navbar.classList.toggle('nav-open'); // toggle menu zichtbaar
   hamburgerButton.classList.toggle('active'); // toggle knop animatie
+});
 });
