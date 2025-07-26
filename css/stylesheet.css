@@ -58,6 +58,11 @@ h3 {
     line-height: var(--heading-line-height);
 }
 
+p {
+    font-size: clamp(1rem, 1vw + 0.3rem, 4rem);
+    line-height: 1.5;
+}
+
 a {
     color: white;
     text-decoration: none;

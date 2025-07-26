@@ -16,6 +16,10 @@ body {
 main {
     margin-inline: 1em;
 
+    @media (min-width: 480px) {
+        margin-inline: 1.5em;
+    }
+
     @media (min-width: 680px) {
         margin-inline: 2em;
     }
