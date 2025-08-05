@@ -27,4 +27,8 @@ main {
     @media (min-width: 1024px) {
         margin-inline: 10%;
     }
+
+    @media (min-width: 1720px) {
+        margin-inline: 20%;
+    }
 }
