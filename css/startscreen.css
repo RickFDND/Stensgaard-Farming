@@ -1,5 +1,10 @@
 .startscreen {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), image-set (url('../img/farm.avif'));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        image-set(
+            url('../img/farm.avif') type('image/avif'),
+            url('../img/farm.webp') type('image/webp'),
+            url('../img/farm.jpg') type('image/jpg')
+        );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
