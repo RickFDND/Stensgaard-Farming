@@ -4,6 +4,7 @@
 @import 'foot.css';
 @import 'products.css';
 @import 'mellerstore.css';
+@import 'internship.css';
 
 body {
     font-family: var(--font-family);
@@ -25,7 +26,7 @@ main {
     }
 
     @media (min-width: 1024px) {
-        margin-inline: 10%;
+        margin-inline: 12.5%;
     }
 
     @media (min-width: 1720px) {

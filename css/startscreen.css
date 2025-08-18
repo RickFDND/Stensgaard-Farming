@@ -23,7 +23,15 @@
             margin: 0;
             font-size: clamp(2rem, 2.5vw + 1.5rem, 20rem);
 
+            @media (min-width: 1024px) {
+                font-size: 4rem;
+            }
+
             @media (min-width: 1300px) {
+                font-size: 6rem;
+            }
+
+            @media (min-width: 1500px) {
                 font-size: 7rem;
             }
 
@@ -73,6 +81,9 @@
         height: calc(60vh - 100px);
     }
     @media (min-width: 1300px) {
+        height: calc(80vh - 100px);
+    }
+    @media (min-width: 1450px) {
         height: calc(100vh - 100px);
     }
 }
