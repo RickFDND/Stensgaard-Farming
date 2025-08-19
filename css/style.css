@@ -5,6 +5,7 @@
 @import 'products.css';
 @import 'mellerstore.css';
 @import 'internship.css';
+@import 'cows.css';
 
 body {
     font-family: var(--font-family);
@@ -18,7 +19,7 @@ main {
     margin-inline: 1em;
 
     @media (min-width: 480px) {
-        margin-inline: 1.5em;
+        margin-inline: 2em;
     }
 
     @media (min-width: 680px) {
@@ -33,3 +34,5 @@ main {
         margin-inline: 20%;
     }
 }
+
+

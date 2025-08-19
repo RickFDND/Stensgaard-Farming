@@ -7,7 +7,7 @@
     <meta name="description" content="Stensgaard Farming is a Danish farm specializing in the production of high-quality potatoes, cows, and peonies. Explore our products and learn more about us.">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/startscreen.css">
-    <link rel="preload" href="./img/farm.avif" as="image" fetchpriority="high" width="1920" height="1080">
+    <link rel="preload" href="./img/farm.avif" as="image" fetchpriority="high">
     <link rel="preload" href="./font/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="./font/Poppins-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="./font/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin>
@@ -18,14 +18,14 @@
         <header>
             <a href="https://stensgaard-farming.com">
                 <picture>
-                  <source srcset="./img/logo.avif" type="image/avif">
-                  <source srcset="./img/logo.webp" type="image/webp">
+                  <source srcset="./img/avif/logo.avif" type="image/avif">
+                  <source srcset="./img/webp/logo.webp" type="image/webp">
 
-                  <img src="./img/logo.png" alt="Stensgaard Farming" width="100" height="100">
+                  <img src="./img/png/logo.png" alt="Stensgaard Farming" width="100" height="100">
                 </picture>
             </a>
 
-            <a href="#quick-links" id="hamburger-button">
+            <a href="#quick-links" id="hamburger-button" aria-label="Menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -42,35 +42,31 @@
                 <ul class="language-switcher">
                     <li>
                         <a href="/danish">
-                            <img src="./img/danish-flag.png" alt="Dansk" loading="lazy">
+                            <img src="./img/png/danish-flag.png" alt="Dansk" loading="lazy">
                         </a>
                     </li>
                     <li>
                         <a href="/english">
-                            <img src="./img/english-flag.png" alt="English" loading="lazy">
+                            <img src="./img/png/english-flag.png" alt="English" loading="lazy">
                         </a>
                     </li>
                     <li>
                         <a href="/dutch">
-                            <img src="./img/dutch-flag.png" alt="Dutch" loading="lazy">
+                            <img src="./img/png/dutch-flag.png" alt="Dutch" loading="lazy">
                         </a>
                     </li>
                 </ul>
             </nav>
         </header>
 
-        <section class="startscreen" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./img/potatoes.avif');">
-            <div>
-                <h1>Mellerstore Seeds ApS</h1>
-                <p>In Denmark</p>
-                <a href="/products">Check our products</a>
-            </div>
-        </section>
+        <main class="cows-main">
+            <h1>Our Jersey Cows</h1>
+            <section class="jersey-cows">
+                <img src="./img/avif/cows.avif" alt="Jersey Cow">
+                <p>At Stensgaard Farming, the Jersey cow is at the very center of our work. With their golden-brown coats, gentle nature, and compact build, they bring both charm and efficiency to our farm. Jerseys are prized for their rich, creamy milk, naturally higher in fat and protein, making it perfect for high-quality dairy products such as cheese and yogurt. At the same time, their smaller size and resilience make them a sustainable choice, requiring less feed while maintaining strong health and longevity. For us, Jerseys represent the perfect combination of beauty, quality, and sustainability.</p>
+            </section>
 
-        <main class="mellerstore-main">
-       
         </main>
-
 
         <footer>
             <div class="footer-wrapper">
