@@ -54,7 +54,6 @@ h2 {
 }
 
 h3 {
-    font-size: calc(var(--heading-font-size) * 0.9);
     line-height: var(--heading-line-height);
 }
 
@@ -71,4 +70,5 @@ a {
 
 ul {
     list-style: none; 
+    padding: 0;
 }

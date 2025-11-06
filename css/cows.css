@@ -1,6 +1,7 @@
 .cows-main {
     h1 {
         color: black;
+        padding-block: 0.4rem;
     }
 
     .jersey-cows {
@@ -38,5 +39,10 @@
         @media (min-width: 1024px) {
             gap: 3em;
         }
+    }
+
+    .jersey-benefits {
+
+        
     }
 }
